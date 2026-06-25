@@ -1,143 +1,154 @@
 # ✈️ Airline Route Performance Analysis Dashboard
 
-A complete Airline Data Analysis project built using **MySQL** and **Microsoft Excel** to analyze flight performance, profitability, occupancy, and operational efficiency through interactive dashboards and SQL queries.
+> A comprehensive Airline Data Analysis project built using **MySQL** and **Microsoft Excel** to analyze flight performance, revenue, profitability, occupancy, and operational efficiency through SQL queries and an interactive dashboard.
+
+![GitHub](https://img.shields.io/badge/MySQL-Database-blue?logo=mysql)
+![GitHub](https://img.shields.io/badge/Microsoft-Excel-green?logo=microsoft-excel)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-This project analyzes airline operational data to answer important business questions such as:
+This project demonstrates how SQL and Excel can be used together for airline business analysis.
 
-- Which routes generate the highest profit?
-- Which routes have the highest number of flights?
-- What is the monthly profit trend?
-- What is the average seat occupancy rate?
-- How does operational cost compare with revenue?
-- Which routes perform better financially?
+It provides insights into:
 
-The project combines **SQL for data analysis** and **Excel for dashboard visualization**.
-
----
-
-## 🚀 Technologies Used
-
-- 🗄️ MySQL Workbench
-- 📊 Microsoft Excel
-- 📈 Pivot Tables
-- 📉 Pivot Charts
-- 📋 SQL
-- 📁 CSV Dataset
+- ✈️ Top 10 Most Profitable Routes
+- 💰 Revenue Analysis
+- 📈 Monthly Profit Trend
+- 💺 Seat Occupancy Analysis
+- 💵 Revenue vs Operational Cost
+- 🌍 Route Performance
+- 📊 Flight Frequency Analysis
 
 ---
 
-## 📂 Project Structure
+# 🛠️ Technologies Used
+
+- MySQL Workbench
+- SQL
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Dashboard Design
+
+---
+
+# 📂 Repository Structure
 
 ```
-📦 Airline-Route-Analysis
+Airline-Route-Performance-Analysis
 │
-├── Database/
-│   ├── Main.sql
+├── Dataset
+│   └── Book3.csv.xlsx
 │
-├── Dataset/
-│   ├── Book3.csv.xlsx
+├── SQL
+│   └── Main.sql
 │
-├── Dashboard/
-│   ├── Dashboard Screenshot.png
+├── Screenshots
+│   ├── dashboard.png
+│   ├── pivot-analysis.png
+│   ├── sql-output.png
 │
 ├── README.md
 ```
 
 ---
 
-# 📊 Dashboard Features
+# 📊 Dashboard
 
-### 📈 KPI Cards
+### Executive Dashboard
 
-- ✈️ Total Flights
-- 💰 Total Revenue
-- 💺 Total Seats Sold
-- 💸 Total Operational Cost
-- 📊 Profit Margin
+![Dashboard](Screenshots/dashboard.png)
 
 ---
 
-### 📉 Visualizations
+# 📈 Dashboard Features
 
-- 📊 Top 10 Most Profitable Routes
-- 🌍 Origin-Destination Analysis
-- 📈 Monthly Profit Trend
-- 🍩 Average Seat Occupancy Rate
-- 📊 Revenue vs Operational Cost
-- 🏆 Route Profitability Ranking
+✔ KPI Cards
 
----
+- Total Flights
+- Total Revenue
+- Total Seats Sold
+- Operational Cost
+- Profit Margin
 
-## 🛠 SQL Analysis
+✔ Charts
 
-The project includes SQL queries for:
+- Top 10 Profitable Routes
+- Monthly Profit Trend
+- Revenue vs Cost
+- Occupancy Donut Chart
 
-- Top 10 busiest routes
-- Average revenue by route
-- Average profit by route
-- Monthly profit analysis
-- Seat occupancy calculation
-- Revenue per flight duration
-- Domestic vs International comparison
-- Route profitability analysis
+✔ Interactive Filters
+
+- Destination
+- Route Code
 
 ---
 
-## 📋 Dataset Information
+# 🗄 SQL Analysis
 
-The dataset contains **1000+ flight records** with the following fields:
+The project contains SQL queries for:
 
-| Column |
-|----------|
-| Flight ID |
-| Route Code |
-| Origin |
-| Destination |
-| Flight Date |
-| Flight Duration |
-| Aircraft Type |
-| Seats Available |
-| Seats Sold |
-| Revenue |
-| Operational Cost |
-| Profit |
-| Month |
-| Occupancy Rate |
+- Top 10 Frequent Routes
+- Average Revenue by Route
+- Average Cost by Route
+- Average Profit by Route
+- Underperforming Routes
+- Revenue Analysis
+- Flight Count Analysis
+
+# Dashboard Results
+
+<img width="1863" height="713" alt="Screenshot 2026-06-25 094918" src="https://github.com/user-attachments/assets/9f3157f2-e550-4bec-a36d-7bf1e88cbc08" />
 
 ---
 
-## 📷 Dashboard Preview
+# 📸 SQL Query Results
 
-> Add your dashboard screenshot here.
-
-```
-images/dashboard.png
-```
-
-Example:
-
-```markdown
-![Dashboard](images/dashboard.png)
-```
+<img width="1858" height="720" alt="Screenshot 2026-06-25 094939" src="https://github.com/user-attachments/assets/1fe6639a-2f45-498a-98d1-05ecc283aeac" />
 
 ---
 
-## 📈 Key Insights
+# 📊 Pivot Table Analysis
+
+<img width="1860" height="712" alt="Screenshot 2026-06-25 094800" src="https://github.com/user-attachments/assets/0cffbd25-23e1-4f38-87ad-a30a00b93114" />
+
+---
+
+# 📋 Dataset
+
+The dataset contains **1000 Airline Flight Records** with the following fields:
+
+- Flight ID
+- Route Code
+- Origin
+- Destination
+- Flight Date
+- Revenue
+- Operational Cost
+- Profit
+- Seats Available
+- Seats Sold
+- Occupancy Rate
+
+---
+
+# 📈 Key Insights
 
 - Identified the most profitable airline routes.
 - Compared revenue against operational costs.
-- Tracked monthly profit trends.
-- Evaluated seat occupancy across routes.
-- Ranked routes based on financial performance.
-- Analyzed route efficiency using SQL.
+- Analyzed monthly profit trends.
+- Evaluated seat occupancy.
+- Ranked routes by profitability.
+- Performed route-wise business analysis.
 
 ---
 
-## ▶️ How to Run
+# ▶️ How to Run
 
 ### Clone Repository
 
@@ -147,7 +158,7 @@ git clone https://github.com/yourusername/Airline-Route-Performance-Analysis.git
 
 ### Import Database
 
-Open **MySQL Workbench**
+Open MySQL Workbench  
 
 Run
 
@@ -167,40 +178,30 @@ Refresh Pivot Tables if required.
 
 ---
 
-## 📁 Screenshots
+# 📚 Learning Outcomes
 
-| Dashboard |
-|------------|
-| Add screenshot here |
-
----
-
-## 🎯 Learning Outcomes
-
-- SQL Aggregation
+- SQL Queries
 - GROUP BY
 - ORDER BY
 - Aggregate Functions
-- Business Analytics
-- Excel Dashboard Development
-- Pivot Tables & Pivot Charts
-- KPI Design
+- Pivot Tables
+- Excel Dashboard
+- Business Intelligence
 - Data Visualization
 
 ---
 
-## ⭐ Future Improvements
+# 🚀 Future Improvements
 
 - Power BI Dashboard
-- Interactive Filters
-- Dynamic SQL Reports
+- Interactive Maps
 - Forecasting
 - Predictive Analytics
-- Automated Data Refresh
+- Real-Time Data Integration
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Prince**
 
@@ -208,6 +209,4 @@ AI/ML & Data Science Student
 
 ---
 
-## ⭐ If you like this project
-
-Give this repository a ⭐ on GitHub!
+⭐ If you found this project useful, don't forget to star the repository!
